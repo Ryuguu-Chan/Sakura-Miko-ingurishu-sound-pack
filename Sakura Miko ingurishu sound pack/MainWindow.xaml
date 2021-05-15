@@ -1,0 +1,57 @@
+﻿<Window x:Class="Sakura_Miko_ingurishu_sound_pack.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Sakura_Miko_ingurishu_sound_pack"
+        mc:Ignorable="d"
+        Loaded="Window_Loaded"
+        ResizeMode="NoResize"
+        KeyDown="Window_KeyDown"
+        WindowStyle="ToolWindow"
+        Title="Sakura Miko Ingutishu sound pack (made by Ogan Özkul aka Ryuguu - Chan)" Height="568.5" Width="807">
+    <Window.Resources>
+        <BitmapImage x:Key="CHARA_MIKO" CreateOptions="IgnoreImageCache" CacheOption="OnLoad" UriSource="C:\Users\Ryu\Documents\Projets C#\00 Sakura Miko ingurishu sound pack\Sakura Miko ingurishu sound pack\Resources\493071334_sakuramiko.png.5b2f372336b20eb8323f702cf71361a5.png"/>
+    </Window.Resources>
+    <Grid>
+        <MediaElement Visibility="Hidden" Name="miko" />
+        <Image HorizontalAlignment="Right" Width="202" Height="202" VerticalAlignment="Bottom" Source="{DynamicResource CHARA_MIKO}"/>
+
+        <Button x:Name="BUT_00" Foreground="red" Background="White" BorderBrush="red" Click="BUT_Click" Content="Nyhallo! [0]"        HorizontalAlignment="Left" Margin="10,10,0,0"   VerticalAlignment="Top" Width="115" Height="75" />
+        <Button x:Name="BUT_01" Foreground="red" Background="White" BorderBrush="red" Click="BUT_Click" Content="Hey! [1]"            HorizontalAlignment="Left" Margin="132,10,0,0"  VerticalAlignment="Top" Width="115" Height="75" />
+        <Button x:Name="BUT_02" Foreground="red" Background="White" BorderBrush="red" Click="BUT_Click" Content="Presentation [2]"    HorizontalAlignment="Left" Margin="255,10,0,0"  VerticalAlignment="Top" Width="115" Height="75" />
+        <Button x:Name="BUT_03" Foreground="red" Background="White" BorderBrush="red" Click="BUT_Click" Content="big company [3]"     HorizontalAlignment="Left" Margin="375,10,0,0"  VerticalAlignment="Top" Width="115" Height="75" />
+        <Button x:Name="BUT_04" Foreground="red" Background="White" BorderBrush="red" Click="BUT_Click" Content="Excuse me [4]"       HorizontalAlignment="Left" Margin="495,10,0,0"  VerticalAlignment="Top" Width="115" Height="75" />
+        <Button x:Name="BUT_05" Foreground="red" Background="White" BorderBrush="red" Click="BUT_Click" Content="Freedom [5]"         HorizontalAlignment="Left" Margin="615,10,0,0"  VerticalAlignment="Top" Width="115" Height="75" />
+        <Button x:Name="BUT_06" Foreground="red" Background="White" BorderBrush="red" Click="BUT_Click" Content="Eeeh?! [6]"          HorizontalAlignment="Left" Margin="10,90,0,0"   VerticalAlignment="Top" Width="115" Height="75" />
+        <Button x:Name="BUT_07" Foreground="red" Background="White" BorderBrush="red" Click="BUT_Click" Content="kys [7]"             HorizontalAlignment="Left" Margin="132,90,0,0"  VerticalAlignment="Top" Width="115" Height="75" />
+        <Button x:Name="BUT_08" Foreground="red" Background="White" BorderBrush="red" Click="BUT_Click" Content="English [8]"         HorizontalAlignment="Left" Margin="255,90,0,0"  VerticalAlignment="Top" Width="115" Height="75" />
+        <Button x:Name="BUT_09" Foreground="red" Background="White" BorderBrush="red" Click="BUT_Click" Content="Do you speak it [9]" HorizontalAlignment="Left" Margin="375,90,0,0"  VerticalAlignment="Top" Width="115" Height="75" />
+        <Button x:Name="BUT_10" Foreground="red" Background="White" BorderBrush="red" Click="BUT_Click" Content="lol 00 [A]"          HorizontalAlignment="Left" Margin="495,90,0,0"  VerticalAlignment="Top" Width="115" Height="75" />
+        <Button x:Name="BUT_11" Foreground="red" Background="White" BorderBrush="red" Click="BUT_Click" Content="lol 01 [B]"          HorizontalAlignment="Left" Margin="615,90,0,0"  VerticalAlignment="Top" Width="115" Height="75" />
+        <Button x:Name="BUT_12" Foreground="red" Background="White" BorderBrush="red" Click="BUT_Click" Content="nono [C]"            HorizontalAlignment="Left" Margin="10,170,0,0"  VerticalAlignment="Top" Width="115" Height="75" />
+        <Button x:Name="BUT_13" Foreground="red" Background="White" BorderBrush="red" Click="BUT_Click" Content="NONONO [D]"          HorizontalAlignment="Left" Margin="132,170,0,0" VerticalAlignment="Top" Width="115" Height="75" />
+        <Button x:Name="BUT_14" Foreground="red" Background="White" BorderBrush="red" Click="BUT_Click" Content="yea [E]"             HorizontalAlignment="Left" Margin="255,170,0,0" VerticalAlignment="Top" Width="115" Height="75" />
+        <Button x:Name="BUT_15" Foreground="red" Background="White" BorderBrush="red" Click="BUT_Click" Content="yea! [F]"            HorizontalAlignment="Left" Margin="375,170,0,0" VerticalAlignment="Top" Width="115" Height="75" />
+        <Button x:Name="BUT_16" Foreground="red" Background="White" BorderBrush="red" Click="BUT_Click" Content="YEAYEAYEA [G]"       HorizontalAlignment="Left" Margin="495,170,0,0" VerticalAlignment="Top" Width="115" Height="75" />
+        <Button x:Name="BUT_17" Foreground="red" Background="White" BorderBrush="red" Click="BUT_Click" Content="Big body [H]"        HorizontalAlignment="Left" Margin="615,170,0,0" VerticalAlignment="Top" Width="115" Height="75" />
+        <Button x:Name="BUT_18" Foreground="red" Background="White" BorderBrush="red" Click="BUT_Click" Content="Small body [I]"      HorizontalAlignment="Left" Margin="10,250,0,0"  VerticalAlignment="Top" Width="115" Height="75" />
+        <Button x:Name="BUT_19" Foreground="red" Background="White" BorderBrush="red" Click="BUT_Click" Content="Waaa [J]"            HorizontalAlignment="Left" Margin="133,250,0,0" VerticalAlignment="Top" Width="115" Height="75" />
+        <Button x:Name="BUT_20" Foreground="red" Background="White" BorderBrush="red" Click="BUT_Click" Content="go top together [K]" HorizontalAlignment="Left" Margin="255,250,0,0" VerticalAlignment="Top" Width="115" Height="75" />
+        <Button x:Name="BUT_21" Foreground="red" Background="White" BorderBrush="red" Click="BUT_Click" Content="Wow [L]"             HorizontalAlignment="Left" Margin="375,250,0,0" VerticalAlignment="Top" Width="115" Height="75" />
+        <Button x:Name="BUT_22" Foreground="red" Background="White" BorderBrush="red" Click="BUT_Click" Content="Coco :D [M]"         HorizontalAlignment="Left" Margin="495,250,0,0" VerticalAlignment="Top" Width="115" Height="75" />
+        <Button x:Name="BUT_23" Foreground="red" Background="White" BorderBrush="red" Click="BUT_Click" Content="Freedom liberty [N]" HorizontalAlignment="Left" Margin="615,250,0,0" VerticalAlignment="Top" Width="115" Height="75" />
+        <Button x:Name="BUT_24" Foreground="red" Background="White" BorderBrush="red" Click="BUT_Click" Content="Jump and fly [O]"    HorizontalAlignment="Left" Margin="10,330,0,0"  VerticalAlignment="Top" Width="115" Height="75" />
+        <Button x:Name="BUT_25" Foreground="red" Background="White" BorderBrush="red" Click="BUT_Click" Content="Human [P]"           HorizontalAlignment="Left" Margin="133,330,0,0" VerticalAlignment="Top" Width="115" Height="75" />
+        <Button x:Name="BUT_26" Foreground="red" Background="White" BorderBrush="red" Click="BUT_Click" Content="OOO [Q]"             HorizontalAlignment="Left" Margin="255,330,0,0" VerticalAlignment="Top" Width="115" Height="75" />
+        <Button x:Name="BUT_27" Foreground="red" Background="White" BorderBrush="red" Click="BUT_Click" Content="hey, freedom [R]"    HorizontalAlignment="Left" Margin="375,330,0,0" VerticalAlignment="Top" Width="115" Height="75" />
+        <Button x:Name="BUT_28" Foreground="red" Background="White" BorderBrush="red" Click="BUT_Click" Content="go! [S]"             HorizontalAlignment="Left" Margin="495,330,0,0" VerticalAlignment="Top" Width="115" Height="75" />
+        <Button x:Name="BUT_29" Foreground="red" Background="White" BorderBrush="red" Click="BUT_Click" Content="Good Afternoon [T]"  HorizontalAlignment="Left" Margin="10,410,0,0"  VerticalAlignment="Top" Width="115" Height="75" />
+        <Button x:Name="BUT_30" Foreground="red" Background="White" BorderBrush="red" Click="BUT_Click" Content="go freedom lady [U]" HorizontalAlignment="Left" Margin="133,410,0,0" VerticalAlignment="Top" Width="115" Height="75" />
+        <Button x:Name="BUT_31" Foreground="red" Background="White" BorderBrush="red" Click="BUT_Click" Content="Miko Sakura [V]"     HorizontalAlignment="Left" Margin="255,410,0,0" VerticalAlignment="Top" Width="115" Height="75" />
+        <Button x:Name="BUT_32" Foreground="red" Background="White" BorderBrush="red" Click="BUT_Click" Content="Yes :D [W]"          HorizontalAlignment="Left" Margin="375,410,0,0" VerticalAlignment="Top" Width="115" Height="75" />
+        
+        <Label Content="Made by Ogan Özkul aka Ryuguu - Chan" HorizontalAlignment="Left" Margin="10,0,0,10" Height="27" VerticalAlignment="Bottom"/>
+
+    </Grid>
+</Window>
