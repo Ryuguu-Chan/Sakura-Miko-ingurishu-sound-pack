@@ -1,1 +1,7 @@
 Here are all the .wav files that are used as samples
+
+When compiling it, you should add it to the same directory as the compiled Executable one
+
+Otherwise all the samples would not work.
+
+You can also do "modding" by adding other samples but the filenames must be the exact same ones :D
